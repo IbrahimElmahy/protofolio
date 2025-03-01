@@ -10,10 +10,10 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --bg-color: #1f242d;
-  --second-bg-color: #323946;
-  --text-color: #fff;
-  --main-color: #00eeff;
+  --bg-color: #F7F7F7;
+  --second-bg-color: #FFB22C;
+  --text-color: #854836;
+  --main-color: #000000;
 }
 *::selection {
   background: var(--main-color);
@@ -81,7 +81,7 @@ section
 }
 .home-img img {
     width: 35vw;
-    filter: drop-shadow( 10px 10px 20px #00eeff);
+    filter: drop-shadow( 10px 10px 20px #854836);
     animation: floatImage 4s ease-in-out infinite;
 
 }
@@ -165,6 +165,8 @@ span{
 }
 .about-img img{
     width: 35vw;
+    filter: drop-shadow( 10px 10px 20px #854836);
+
 
 }
 .heading{
